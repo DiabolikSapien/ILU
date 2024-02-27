@@ -1,0 +1,65 @@
+/* Default styles */
+#app {
+  background: #fefefe;
+  color: #4b4c4d;
+  display: grid;
+  font: 900 3vw 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  display: grid;
+  gap: 2vh;
+  margin: auto;
+  place-items: center;
+  font-size: 3vh;
+}
+
+.gif {
+  height: 60vh;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  margin-top: 2vh;
+}
+
+.yes {
+  margin-right: auto;
+}
+
+.no {
+  transition: .4s all;
+}
+
+button {
+  background: #ff5858;
+  border: none;
+  border-radius: 1vw;
+  color: #e7e7e7;
+  cursor: pointer;
+  font: 600 2vw 'Roboto', sans-serif;
+  padding: 1vh 2vw;
+}
+
+@media (max-width: 768px) {
+  .box {
+    font-size: 5vw; 
+  }
+
+  .gif {
+    height: 60vw; 
+  }
+
+  .btns {
+    width: 50vw; 
+  }
+
+  button {
+    font-size: 4vw; 
+    padding: 2vh 4vw;
+  }
+}
