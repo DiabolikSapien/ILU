@@ -14,4 +14,19 @@
   .text {
     font: 700 2vw 'Roboto', sans-serif;
   }
+
+  @media (max-width: 768px) {
+    .box {
+      font-size: 5vw; 
+    }
+  
+    .gif {
+      height: 60vw; 
+    }
+  
+    button {
+      font-size: 4vw; 
+      padding: 2vh 4vw;
+    }
+  }
   
